@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>iTunes Artist Finder</title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+    <div class="container" style="margin-top:30px;">
+
+        <h1 class="text-center">iTunes Artist Finder </h1>
+        <p class="text-center text-muted">
+            Type an artist name and I'll pull them from the iTunes API.
+        </p>
+
+        <form id="searchForm" class="form-inline text-center" style="margin-top:15px;">
+            <input id="searchInput"
+                   type="text"
+                   class="form-control"
+                   placeholder="ex: The Weeknd, Ariana Grande, Brent Faiyaz..."
+                   style="min-width:250px;">
+            <button class="btn btn-primary">Search</button>
+        </form>
+
+        <p id="errorMessage" class="text-danger text-center" style="margin-top:10px;"></p>
+
+        <div id="results" class="row" style="margin-top:25px;"></div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

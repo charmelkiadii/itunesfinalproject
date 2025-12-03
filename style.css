@@ -1,0 +1,50 @@
+body {
+    background-color: #0d0d0d;
+    color: #ededed;
+    font-family: Arial, sans-serif;
+}
+
+/* headings */
+h1, h2, h3 {
+    color: #ff003c;
+}
+
+/* search bar and buttons */
+input.form-control {
+    background-color: #1a1a1a;
+    color: white;
+    border: 1px solid #ff003c;
+}
+
+.btn-primary {
+    background-color: #ff003c;
+    border-color: #ff003c;
+}
+
+/* artist cards */
+.panel {
+    background-color: #141414;
+    border: 1px solid #330000;
+    color: #fff;
+}
+
+/* thumbnail gallery */
+.thumbnail {
+    background-color: #141414;
+    border: none;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.thumbnail img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+/* small caption text */
+.caption-text {
+    font-size: 12px;
+    margin-top: 4px;
+    color: #cccccc;
+}
